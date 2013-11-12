@@ -10,8 +10,7 @@ usually involves the following:
 2. Add some content, style, and functionality.
 3. Run your site locally to see how it looks.
 4. (Optionally run a build script to automate the optimization of your site -
-   e.g. [ant build script](https://github.com/h5bp/ant-build-script) or [node
-   build script](https://github.com/h5bp/node-build-script)).
+   e.g. [ant build script](https://github.com/h5bp/ant-build-script))
 5. Deploy your site.
 
 
@@ -34,12 +33,12 @@ A basic HTML5 Boilerplate site initially looks something like this:
 │       └── modernizr.min.js
 ├── .htaccess
 ├── 404.html
+├── apple-touch-icon-precomposed.png
 ├── index.html
 ├── humans.txt
 ├── robots.txt
 ├── crossdomain.xml
-├── favicon.ico
-└── [apple-touch-icons]
+└── favicon.ico
 ```
 
 What follows is a general overview of each major part and how to use them.
@@ -101,9 +100,13 @@ Edit this file to include any pages you need hidden from search engines.
 A template for working with cross-domain requests. [About
 crossdomain.xml](crossdomain.md).
 
-### icons
+### Icons
 
-Replace the default `favicon.ico` and apple touch icons with your own. You
-might want to check out Hans Christian's handy [HTML5 Boilerplate Favicon and
-Apple Touch Icon
+Replace the default `favicon.ico` and Apple Touch Icon with your own.
+
+If you want to use different Apple Touch Icons for different resolutions please
+refer to the [according documentation](extend.md#apple-touch-icons).
+
+You might want to check out Hans' handy [HTML5 Boilerplate Favicon and Apple
+Touch Icon
 PSD-Template](http://drublic.de/blog/html5-boilerplate-favicons-psd-template/).

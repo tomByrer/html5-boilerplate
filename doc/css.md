@@ -31,7 +31,7 @@ These include:
 * Basic typography settings to provide improved text readability by default.
 * Protection against unwanted `text-shadow` during text highlighting.
 * Tweaks to default image alignment, fieldsets, and textareas.
-* A pretty Chrome Frame prompt.
+* A pretty prompt to update your browser if you are on an outdated browser.
 
 You are free to modify or add to these base styles as your project requires.
 
@@ -100,7 +100,7 @@ and (max-width: 480px)`.
 
 Take a look into the [Mobile
 Boilerplate](https://github.com/h5bp/mobile-boilerplate) for features that are
-useful when developing mobile wep apps.
+useful when developing mobile web apps.
 
 
 ## Print styles
